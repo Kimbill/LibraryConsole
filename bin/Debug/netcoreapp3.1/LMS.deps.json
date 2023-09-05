@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LMS/1.0.0": {
+        "dependencies": {
+          "LMS.Common": "1.0.0",
+          "LMS.Core": "1.0.0",
+          "LMS.Model": "1.0.0"
+        },
+        "runtime": {
+          "LMS.dll": {}
+        }
+      },
+      "LMS.Common/1.0.0": {
+        "dependencies": {
+          "LMS.Model": "1.0.0"
+        },
+        "runtime": {
+          "LMS.Common.dll": {}
+        }
+      },
+      "LMS.Core/1.0.0": {
+        "dependencies": {
+          "LMS.Data": "1.0.0",
+          "LMS.Model": "1.0.0"
+        },
+        "runtime": {
+          "LMS.Core.dll": {}
+        }
+      },
+      "LMS.Data/1.0.0": {
+        "dependencies": {
+          "LMS.Model": "1.0.0"
+        },
+        "runtime": {
+          "LMS.Data.dll": {}
+        }
+      },
+      "LMS.Model/1.0.0": {
+        "runtime": {
+          "LMS.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LMS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LMS.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LMS.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LMS.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LMS.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
